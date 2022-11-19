@@ -136,3 +136,15 @@ color: black;
     color: white;
 
 }
+
+.footer_logo{
+    max-width: 550px;
+  text-align: center;
+  height: 5px;
+}
+
+.logo_class-footer{
+    width: 120px;
+   position: relative; top: 45px;
+   height: fit-content;
+}

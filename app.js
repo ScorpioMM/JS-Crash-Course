@@ -1,13 +1,17 @@
-let cash=6000
-let price=100
+for (let i=1; i<=20; i++){
+    
+    if (i %3 ===0 && i%5===0)
+    console.log(`${i} frontend simplified`) 
 
-if (cash>price){
-console.log(`you paid extra, here's your ${cash-price} money back`)
-}
-else if (cash===price){
-    console.log("You r good, enjoy!")
-}
+    else if (i %3===0){
+        console.log (`${i} frontend`)
+    }
 
-else {
-    console.log(`Brokie, get your money up, you need ${price-cash} more.`)
+    else if (i%5===0) {
+        console.log(`${i} simplified`)
+    }
+
+    else{
+        console.log (`${i} -> ${i}`)
+    }
 }
