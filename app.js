@@ -1,17 +1,6 @@
-for (let i=1; i<=20; i++){
-    
-    if (i %3 ===0 && i%5===0)
-    console.log(`${i} frontend simplified`) 
+let cash=80
+let price=70
 
-    else if (i %3===0){
-        console.log (`${i} frontend`)
-    }
-
-    else if (i%5===0) {
-        console.log(`${i} simplified`)
-    }
-
-    else{
-        console.log (`${i} -> ${i}`)
-    }
+if (cash>=70) { console.log( `thank you, heres ur change ${cash-price}`)
 }
+
