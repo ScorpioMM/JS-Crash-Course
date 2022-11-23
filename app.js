@@ -13,6 +13,9 @@ else {
     }
 }
  
+/*
+
+
 
 let cash=100
 let price=100
@@ -46,6 +49,22 @@ for (i=0; i<perra.length; ++i){
 
 function WelcomeToFES (name) {
     WelcomeToFES (name)
-}
+} 
 
 WelcomeToFES (`Karim`)
+
+for (i=1; i>=20; i++) {
+    if (i%3===0 && i%5===0) {
+        console.log (`Frontend Simplified ${i}`)
+    }
+  else if (i%3===0) {
+        console.log (`Frontend ${i}`)
+    }
+  else  if (i%5===0) {
+        console.log (`Simplified ${i}`)
+    }
+else {
+        console.log (`${i} -> ${i}`)
+    }
+}
+ 
