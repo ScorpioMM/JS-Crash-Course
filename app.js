@@ -1,18 +1,16 @@
-for (i=1; i<20; ++i) 
-    if (i%3===0 && i%5===0) {
-        console.log(`${i} -> Frontend Simplified`)
-    }
+let cash=120
+let price=120
+let isStoreOpen=true
 
 
-else if (i%3===0 ) {
-        console.log(`${i} -> Frontend `)
-    }
-else  if (i%5===0) {
-        console.log(`${i} -> Simplified`)
-    }
+if(cash>price) {
+    console.log(`Here's your change ${cash-price}`)
+}
 
+else if (cash===price) {
+    console.log (`Ty`)
+}
 
 else {
-        console.log(`${i} -> ${i}`)
-    }
-
+    console.log(`Not enough, you need ${price-cash} more`)
+}
