@@ -1,5 +1,5 @@
-const str = `Frontend Simplified` 
-
-for (let i=0; i<str.length; i++) {
-console.log(str[i])
+function Weather (celsious) {
+    let fahrenheit = celsious * 1.8 + 32
 }
+
+console.log (Weather (30)) 
