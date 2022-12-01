@@ -1,9 +1,11 @@
 let grades = [`A+` ,`A`,`FAIL`] 
 
+let goodGrades = []
 
-for (i = 0; i < grades.length; ++i)
-if (`A+` === `A` < `FAIL`)
+for (i = 0; i < grades.length; ++i){
+    if (grades[i] !== `FAIL`){ 
+        goodGrades.push(grades[i])
+    }
+}
 
-console.log(grades[i])
-
-console.log(gooGrades)
+console.log(goodGrades)
