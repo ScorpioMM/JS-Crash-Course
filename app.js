@@ -1,4 +1,9 @@
-let arr = [20,30,40,50,100]
-let newArr = arr.filter(element => element < 50)
+let grades = [`A+` ,`A`,`FAIL`] 
 
-console.log(newArr)
+
+for (i = 0; i < grades.length; ++i)
+if (`A+` === `A` < `FAIL`)
+
+console.log(grades[i])
+
+console.log(gooGrades)
