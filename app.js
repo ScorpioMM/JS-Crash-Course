@@ -39,3 +39,5 @@ catch (e) {
 }
 
 main (); 
+
+// Promises can only accept resolve and reject & has the same formula as (() => {})
