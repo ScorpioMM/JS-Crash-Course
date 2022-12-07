@@ -1,5 +1,4 @@
-function Welcome (num1 , num2){
-    return num1 + num2
+function Diego (name, lastName) {
+return name , lastName
 }
-
-console.log(Welcome(30,50))
+console.log(`Diego` , `Minchala`)
