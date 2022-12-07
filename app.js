@@ -1,5 +1,5 @@
-function Welcomeback (name) {
-    console.log(`Welcomeback To FES, ${name}`)
+function Welcome (num1 , num2){
+    return num1 + num2
 }
 
-Welcomeback (`Diego`); 
+console.log(Welcome(30,50))
