@@ -1,20 +1,5 @@
-let str = (`welcome To FES Karim`) 
-for (i = 0; i < 21 ; i++){
-if(i % 3 === 0 & i % 5 ===0) {
-    console.log(`${i} -> Frontend Simplified`)
-}   
-
-else if (i % 3 === 0) {
-    console.log(`${i} -> Frontend`)
+function str (num1, num2) {
+return num1 + num2
 }
 
-else if (i % 5 === 0) {
-    console.log(`${i} -> Simplified`)
-}
-
-else {
-    console.log(`${i} -> ${i}`)
-}
-
-
-}
+console.log(str(10,30))
