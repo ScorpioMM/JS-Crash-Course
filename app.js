@@ -1,5 +1,5 @@
-function str (num1, num2) {
-return num1 + num2
+const weather = (celsious) => {
+return celsious * 1.8 + 32
 }
 
-console.log(str(10,30))
+console.log(weather(0))
