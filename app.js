@@ -23,21 +23,3 @@ else {
 }
     })
 }
-
-
-async function main () {
-const status = await getSubcriptionStatus ();
-statusRef.innerHTML = status;
-try {
-    console.log(await getVideo(status))
-}
-catch (e) {
-    console.log(e)
-    videoRef.innerHTML = e;
-}
-
-}
-
-main (); 
-
-// Promises can only accept resolve and reject & has the same formula as (() => {} 
