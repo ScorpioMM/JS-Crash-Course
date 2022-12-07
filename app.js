@@ -1,4 +1,4 @@
-function Diego (name, lastName) {
-return name , lastName
+let str = (`welcome To FES Karim`) 
+for (i = 0; i < str.length; i++){
+    console.log(str[i])
 }
-console.log(`Diego` , `Minchala`)
