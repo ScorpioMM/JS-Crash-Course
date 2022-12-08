@@ -1,7 +1,12 @@
-let arr = [20,30,40,50,100] 
+function diego (name) {
+    return name
+}
 
-let newArr = arr.filter((element) => {
-console.log(element)
+console.log(diego(`Karim`))
+
+
+const karimm = ((num1, num2)=>{
+return num1 + num2
 })
 
-console.log(newArr)
+console.log(10, 40)
