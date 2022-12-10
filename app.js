@@ -1,9 +1,11 @@
-let arr = [20, 60, 100]
+let arr = [20, 30, 40, 50, 100]
 
-console.log(arr[0])
+let newArr = arr.filter((element) => {
+console.log(element)
+return true;
+})
 
-console.log(arr[1])
 
-arr.push(900);
+arr.push(400);
 
 console.log(arr)
