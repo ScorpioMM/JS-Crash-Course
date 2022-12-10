@@ -1,12 +1,4 @@
-function diego (name) {
-    return name
-}
-
-console.log(diego(`Karim`))
-
-
-const karimm = ((num1, num2)=>{
-return num1 + num2
-})
-
-console.log(10, 40)
+let str = `FrontendSimplified` 
+for (i=0; i<str.length;++i){
+    console.log(str[i])
+} 
