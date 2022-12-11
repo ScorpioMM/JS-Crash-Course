@@ -1,30 +1,10 @@
-let grades = [`A+`, `A`, `FAIL`]
+let dollars = [1, 5, 10, 3]
 
-let gooGrades = []
+let cents = [];
 
-for (i=0; i < grades.length; ++i){
-    if (grades[i] !== `FAIL`)
-    gooGrades.push(grades[i]);
+for (let i=0; i<dollars.length; ++i) {
+  cents.push(dollars[i] * 100);
+
 }
 
-console.log(gooGrades)
-
-
-let arr = [20,30, 40,50, 100]
-
-let newArr = arr.filter(element => element < 50)
-
-console.log(newArr)
-
-
-
-
-let dogs = [20, 30, 40, 90]
-
-console.log(dogs[0])
-
-console.log(dogs [dogs.length-1])
-
-dogs.push(100);
-
-console.log(dogs)
+console.log(cents)
