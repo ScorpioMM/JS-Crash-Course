@@ -1,16 +1,28 @@
-let grades = [`A+`, `A`, `FAIL`]
+let dogs = [20,30,40,50,100]
+console.log(dogs[0])
 
-let newArr = grades.map((element) => {
-console.log(element)
-return `dogsssslolol`
+console.log(dogs[dogs.length-1])
+
+dogs.push(300);
+console.log(dogs)
+
+
+// WE using arrays.filter now
+
+let arr = [20, 30, 40, 50, 100]
+
+let newArr = arr.filter((element)=>{
+    if (element < 50){
+        return true;
+    }
 })
-
 console.log(newArr)
 
 
-let dogs = [1,2,3,4,5]
-for (i=0; i < dogs.length; ++i){
-    console.log(dogs)
-}
+let newKarim = [1,2,3,4,5,10]
 
-console.log(dogs)
+let karim = newKarim.map ((element) => {
+    console.log(element)
+    return `doggie xd`;
+})
+console.log(karim)
