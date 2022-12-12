@@ -1,10 +1,16 @@
-let dollars = [1, 5, 10, 3]
+let grades = [`A+`, `A`, `FAIL`]
 
-let cents = [];
+let newArr = grades.map((element) => {
+console.log(element)
+return `dogsssslolol`
+})
 
-for (let i=0; i<dollars.length; ++i) {
-  cents.push(dollars[i] * 100);
+console.log(newArr)
 
+
+let dogs = [1,2,3,4,5]
+for (i=0; i < dogs.length; ++i){
+    console.log(dogs)
 }
 
-console.log(cents)
+console.log(dogs)
