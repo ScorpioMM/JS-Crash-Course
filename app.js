@@ -23,12 +23,39 @@ lessonsCompleted: [0,1]
     lessonsCompleted: [0,1,2,3]
 },
 ];
+
 function login(email, password){
     for(i=0; i < user.length; ++i ) {
-        if (user[i].email === email)
-        console.log(user[i]);
+        if (user[i].email === email){
+            console.log(user[i]);
+
+            if (user[i].password === password) {
+                console.log(`Log the user in - the details are correct`)
+            }
+            
+                else {
+                    console.log(`password is incorrect`)
+                }
+                return;
+        }
     }
-console.log(user[i]);
+    console.log(`couldnt find an email that matches`)
 }
 
-login(`karim@gmail.com` , `perro1213`);
+login(`karim@gmail.com` , `wrong`);
+
+// Register functions 
+
+
+
+function register (
+    username, 
+    email, 
+    password, 
+    subscriptionStatus, 
+    discordID,
+    lessonsCompleted){
+    console.log(email,password)
+}
+
+register(`zen`,`zen@gmail.com` , `hello`);
