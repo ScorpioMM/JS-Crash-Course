@@ -48,30 +48,17 @@ login(`karim@gmail.com` , `wrong`);
 
 
 
-function register (
-    username, 
-    email, 
-    password, 
-    subscriptionStatus, 
-    discordID,
-    lessonsCompleted){
-        let user = {
-username: username,
-email: email,
-password: password,
-subscriptionStatus: subscriptionStatus,
-discordID: discordID,
-lessonsCompleted: lessonsCompleted,
-}
+function register (user){
 users.push(user);
     }
 
-register(`zen`,
-`zen@gmail.com` ,
- `hello`, 
- `VIP` , 
- `001`, 
- `0,1`
- );
+register({
+   username: `zen`,
+   email: `zen@gmail.com` ,
+    password: `hello`, 
+   subscriptionStatus: "VIP" , 
+   discordID: "001", 
+  lessonsCompleted:  [0,1]
+});
 
  console.log(users); 
