@@ -1,4 +1,4 @@
-let user = [{
+let users = [{
 username: `Karim` ,
 email: `karim@gmail.com`,
 password: `perro1213`,
@@ -25,11 +25,11 @@ lessonsCompleted: [0,1]
 ];
 
 function login(email, password){
-    for(i=0; i < user.length; ++i ) {
-        if (user[i].email === email){
-            console.log(user[i]);
+    for(i=0; i < users.length; ++i ) {
+        if (users[i].email === email){
+            console.log(users[i]);
 
-            if (user[i].password === password) {
+            if (users[i].password === password) {
                 console.log(`Log the user in - the details are correct`)
             }
             
@@ -55,7 +55,23 @@ function register (
     subscriptionStatus, 
     discordID,
     lessonsCompleted){
-    console.log(email,password)
+        let user = {
+username: username,
+email: email,
+password: password,
+subscriptionStatus: subscriptionStatus,
+discordID: discordID,
+lessonsCompleted: lessonsCompleted,
 }
+users.push(user);
+    }
 
-register(`zen`,`zen@gmail.com` , `hello`);
+register(`zen`,
+`zen@gmail.com` ,
+ `hello`, 
+ `VIP` , 
+ `001`, 
+ `0,1`
+ );
+
+ console.log(users); 
