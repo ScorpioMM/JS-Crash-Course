@@ -1,62 +1,60 @@
 let users = [{
-username: `Karim` ,
-email: `karim@gmail.com` ,
-password: `karim1213`,
-subscriptionStatus: `VIP` , 
-discordID: `001133` ,
-lessonsCompleted: [0,1]
-} ,
-{
-username: `Karim` ,
-email: `karim@gmail.com` ,
-password: `karim1213`,
-subscriptionStatus: `VIP` , 
-discordID: `001133` ,
-lessonsCompleted: [0,1]
+    username: "diego" ,
+    email: "diego@gmail.com" ,
+    password: "diego1213" ,
+    status: "VIP" ,
+    discordID: "011diego" ,
+    lessonsCompleted: [0,1] ,
 },
 {
-username: `Karim` ,
-email: `karim@gmail.com` ,
-password: `karim1213`,
-subscriptionStatus: `VIP` , 
-discordID: `001133` ,
-lessonsCompleted: [0,1]
-} ,
-
+    username: "karim" ,
+    email: "karim@gmail.com" ,
+    password: "karim11" ,
+    status: "VIP" ,
+    discordID: "karim01" ,
+    lessonsCompleted: [0,1] ,
+},
+{
+    username: "diego" ,
+    email: "diego@gmail.com" ,
+    password: "diego1213" ,
+    status: "VIP" ,
+    discordID: "011diego" ,
+    lessonsCompleted: [0,1] ,
+}
 ]
 
-function login (email,password) {
-    for (i = 0; i < users.length; ++i){
-        if (users[i].email === email) {
-            console.log(users[i])
-        }
-        if (users[i].password === password) {
-            console.log(`Log in the user`)
-        }
-    else {console.log(`wrong password`)}
-return;
- }
+function login (email, password) {
 
-console.log(`couldnt find an email`)
+for (i = 0; i < users.length; i++) {
+    if (users[i].email === email){
+        if (users.passsword === password)
 
+        console.log(`let the user in`)
+
+        else {console.log(`wrong password`)}
+        return;
+    }
 }
 
-login (`karim@gmail.com`)
+console.log(users[i])
+}
 
+login (`karim@gmail.com` , `karim11`)
 
-// Register
+// register 
 
 function register (user){
-    users.push(user);}
+    users.push(user)
+}
 
-register({
-    username: `diego`,
-    email: `diego@gmail.com`,
-    password: `diego1213`,
-    subscriptionStatus: `VIP`,
-    discordID: `0022` ,
-    lessonsCompleted: [1,2]
+register ({
+    username: `zen`,
+    email: "zen@gmail.com" ,
+    password: "zen" ,
+    status: "VIP" ,
+    discordID: "01zen" ,
+    lessonsCompleted: [0,1] ,
 })
 
 console.log(users);
-
