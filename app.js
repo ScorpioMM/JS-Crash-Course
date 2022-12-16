@@ -1,64 +1,62 @@
 let users = [{
 username: `Karim` ,
-email: `karim@gmail.com`,
-password: `perro1213`,
-subscriptionStatus: `VIP`,
-discordID: `USKarim`,
+email: `karim@gmail.com` ,
+password: `karim1213`,
+subscriptionStatus: `VIP` , 
+discordID: `001133` ,
+lessonsCompleted: [0,1]
+} ,
+{
+username: `Karim` ,
+email: `karim@gmail.com` ,
+password: `karim1213`,
+subscriptionStatus: `VIP` , 
+discordID: `001133` ,
 lessonsCompleted: [0,1]
 },
 {
-    username: `iphone` ,
-    email: `phone@gmail.com`,
-    password: `dog1213`,
-    subscriptionStatus: `VIP`,
-    discordID: `iphone`,
-    lessonsCompleted: [0,1,2,3]
-},
-{
-    username: `zen` ,
-    email: `zen@gmail.com`,
-    password: `zen`,
-    subscriptionStatus: `VIP`,
-    discordID: `zen`,
-    lessonsCompleted: [0,1,2,3]
-},
-];
+username: `Karim` ,
+email: `karim@gmail.com` ,
+password: `karim1213`,
+subscriptionStatus: `VIP` , 
+discordID: `001133` ,
+lessonsCompleted: [0,1]
+} ,
 
-function login(email, password){
-    for(i=0; i < users.length; ++i ) {
-        if (users[i].email === email){
-            console.log(users[i]);
+]
 
-            if (users[i].password === password) {
-                console.log(`Log the user in - the details are correct`)
-            }
-            
-                else {
-                    console.log(`password is incorrect`)
-                }
-                return;
+function login (email,password) {
+    for (i = 0; i < users.length; ++i){
+        if (users[i].email === email) {
+            console.log(users[i])
         }
-    }
-    console.log(`couldnt find an email that matches`)
+        if (users[i].password === password) {
+            console.log(`Log in the user`)
+        }
+    else {console.log(`wrong password`)}
+return;
+ }
+
+console.log(`couldnt find an email`)
+
 }
 
-login(`karim@gmail.com` , `wrong`);
-
-// Register functions 
+login (`karim@gmail.com`)
 
 
+// Register
 
 function register (user){
-users.push(user);
-    }
+    users.push(user);}
 
 register({
-   username: `zen`,
-   email: `zen@gmail.com` ,
-    password: `hello`, 
-   subscriptionStatus: "VIP" , 
-   discordID: "001", 
-  lessonsCompleted:  [0,1]
-});
+    username: `diego`,
+    email: `diego@gmail.com`,
+    password: `diego1213`,
+    subscriptionStatus: `VIP`,
+    discordID: `0022` ,
+    lessonsCompleted: [1,2]
+})
 
- console.log(users); 
+console.log(users);
+
