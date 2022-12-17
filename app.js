@@ -41,12 +41,11 @@ let goodGrades = grades.filter((element) => {
 console.log(goodGrades)
 
 // 
-let str = `money`
+
 let cash = 500  
 let price = 200
 
-for (i = 0; i < cash.length; ++i) {
-    if (cash >= price) {
+    if (cash > price) {
         console.log(`${cash-price} change`)
     }
 
@@ -56,6 +55,47 @@ for (i = 0; i < cash.length; ++i) {
 
     else {console.log(`${price - cash} you need`)
      }
+
+// login 
+
+let  users = [{
+username: `karim`,
+email: `karim@gmail.com`,
+password: `karim12` ,
+subscriptionStatus: `VIP` ,
+discordID: `karim01` , 
+lessonsCompleted: [0, 1]
+},
+{
+username: `karim`,
+email: `karim@gmail.com`,
+password: `karim12` ,
+subscriptionStatus: `VIP` ,
+discordID: `karim01` , 
+lessonsCompleted: [0, 1]
+} ,
+{
+username: `karim`,
+email: `karim@gmail.com`,
+password: `karim12` ,
+subscriptionStatus: `VIP` ,
+discordID: `karim01` , 
+lessonsCompleted: [0, 1]
+}
+] 
+
+function login (email,password) {
+for (i=0; i < users.length; i++) {
+    if (users[i].email === email) {
+        if (users[i].password === password)
+     console.log(`let him in`)   
+    }
+    else {console.log(`wrong password`)}        
+        
+return;
+
 }
 
-console.log(str)
+}
+
+login (`karim@gmail.com` , `karim12`)
