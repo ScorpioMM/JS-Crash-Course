@@ -40,4 +40,22 @@ let goodGrades = grades.filter((element) => {
 
 console.log(goodGrades)
 
+// 
+let str = `money`
+let cash = 500  
+let price = 200
 
+for (i = 0; i < cash.length; ++i) {
+    if (cash >= price) {
+        console.log(`${cash-price} change`)
+    }
+
+    else if (cash === price) {
+        console.log(`let him in, thank you`)
+    }
+
+    else {console.log(`${price - cash} you need`)
+     }
+}
+
+console.log(str)
