@@ -24,23 +24,25 @@ let users = [{
 }
 ]
 
-function login (email, password) {
+function login (email,password) {
 
 for (i = 0; i < users.length; i++) {
-    if (users[i].email === email){
-        if (users.passsword === password)
 
-        console.log(`let the user in`)
-
-        else {console.log(`wrong password`)}
-        return;
+if(users[i].email === email){
+    if (users[i].password === password){
+        console.log(`let him in`)
     }
-}
+else {console.log(`NO NIGGA`)}
 
-console.log(users[i])
+return;
+}
+}
+console.log(`couldnt find an email`)
 }
 
 login (`karim@gmail.com` , `karim11`)
+
+
 
 // register 
 
