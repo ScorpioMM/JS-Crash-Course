@@ -6,13 +6,13 @@
 
 // how to change the HTML on anything, used the method below, used += to ADD into the server
 
-document.querySelector('.title').innerHTML = 'Frontend Simplified'
+// document.querySelector('.title').innerHTML = 'Frontend Simplified'
 
 // change css, from color to font size. this document.querySelector helps u change anything. 
 
-document.querySelector('.title').style.fontSize = '38px'
+// document.querySelector('.title').style.fontSize = '38px'
 
-function clickme (){
-    document.querySelector(".title").style.color = 'red'
-    console.log('clicked')
-}
+// function clickme (){
+  //  document.querySelector(".title").style.color = 'red'
+ //   console.log('clicked')
+// }
