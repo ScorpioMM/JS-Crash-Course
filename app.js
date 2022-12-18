@@ -99,3 +99,22 @@ return;
 }
 
 login (`karim@gmail.com` , `karim12`)
+
+
+let register = {
+    username: `zen`,
+    email: `zen@gmail.com`,
+    password: `ze1` ,
+    subscriptionStatus: `VIP` ,
+    discordID: `zen11` , 
+    lessonsCompleted: [0, 3]
+}
+
+
+function register (user){
+    users.push(user)
+}
+
+
+
+
