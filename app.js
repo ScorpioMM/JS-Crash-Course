@@ -7,6 +7,7 @@ fetch (("https://jsonplaceholder.typicode.com/users/1"))
 console.log(data);
 emailRef.innerHTML = email.data
 });
+
 // 
 
 let grades = ['A+' , 'A' , 'F']
@@ -18,3 +19,13 @@ goodGrades.push (grades[i]);
 }
 
 console.log(goodGrades)
+
+//
+
+let arr = [1, 2]
+let newaRR = arr.map ((element) => {
+    console.log(element)
+    return `pene`;
+})
+
+console.log(newaRR)
