@@ -92,3 +92,59 @@ for (i = 0; i < dollars.length; ++i){
 }
 
 console.log(cents);
+
+// OBJECTSSSSS 
+
+let users = [{
+    username: `karim` ,
+    email: `karim1213@gmail.com` ,
+    login: `karim1`, 
+    password: `karim1213` , 
+    subscriptionID: `55karim` , 
+    discordID: `karim12` , 
+    lessonsCompleted: [1, 2] 
+},
+{
+    username: `zen` ,
+    login: `zen12`, 
+    password: `zen3` , 
+    subscriptionID: `5zen` , 
+    discordID: `zen2` , 
+    lessonsCompleted: [1, 2] 
+},
+{
+    username: `karma` ,
+    login: `kar1`, 
+    password: `kar3` , 
+    subscriptionID: `5kar` , 
+    discordID: `12kar` , 
+    lessonsCompleted: [1, 2] 
+},
+]
+
+function login (email, password) {
+    for (i = 0; i < users.length; ++i){
+        if (users[i].email === email) {
+            console.log(users[i])
+        if (users[i].password === password) {
+            console.log(`let him in`)
+        }
+        else (console.log(`Fuck that nigga`))
+        return;
+        }
+    }
+console.log(`couldnt find an email`)
+}
+
+login (`karim1213@gmail.com` , `karim121`)
+
+
+// DOMs
+
+console.log(document.querySelector ('#title')) 
+
+// DOMs w no ID
+
+console.log(document.querySelector('.title')).innerHTML = 'DIEGO'
+
+// 
