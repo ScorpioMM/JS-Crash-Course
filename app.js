@@ -1,18 +1,17 @@
-let str = `Frontend Simplified` 
-for (i = 0; i < str.length; ++i) {
-if (i % 3 === 0 && i % 5 ===0) {
-    console.log(`${i} --> FRONTEND SIMPLIFIED`)
+function arr (username) {
+    return username
+}
+console.log(`karim`)
+
+const newArr = (password) => {
+return password
 }
 
-else if (i % 3 === 0) {
-    console.log(`${i} ---> Frontend`)
-}
+console.log(`perro1213`)
 
-else if (i % 5 === 0) {
-    console.log(`${i} ---> Simplified`)
-}
+let array = [20, 30, 40, 50, 100] 
+console.log(array[2])
 
-else {console.log(`${i} --> ${i}`)}
-
-}
-
+let newArray = array.filter ((num1) => {
+    console.log(num1)
+})
