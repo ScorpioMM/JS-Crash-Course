@@ -68,3 +68,27 @@ for (i = 0; i<grades.length; i++) {
 console.log(goodGrades)
 
 // We using map now 
+
+let karim = [1, 2]
+
+//let newKarim = karim.map ((element) => {
+//    console.log(element)
+//    return `LMAO`;
+// })
+
+// console.log(newKarim)
+
+// SHorter way and cleanest
+let newKarim = karim.map (element => `lmao`)
+console.log(newKarim)
+
+// WITHOUT USING THE MAP METHOD 
+
+let dollars = [1, 5, 10, 3]
+let cents = []
+
+for (i = 0; i < dollars.length; ++i){
+    cents.push(dollars[i] * 100);
+}
+
+console.log(cents);
