@@ -42,10 +42,10 @@ console.log (dogs)
 let arrNew = [20, 40, 50, 70,  60, 80] 
 
 
-//let arrNewT = arrNew.filter ((element) => {
-//    if (element < 50 ) {
-  //      return true;
-    // }
+// let arrNewT = arrNew.filter ((element) => {
+// if (element < 50 ) {
+// return true;
+// }
 // })
 
 // console.log(arrNewT) 
@@ -55,3 +55,16 @@ let arrNew = [20, 40, 50, 70,  60, 80]
 let arrNewT = arrNew.filter (element => element < 50)
 console.log(arrNewT)
 
+// keep doing arrays 
+
+let grades = [`A+` , `A` , `FAIL`] 
+let goodGrades = [] 
+
+for (i = 0; i<grades.length; i++) {
+    if (grades[i] !== `FAIL`) {
+        goodGrades.push(grades[i]);
+    }
+}
+console.log(goodGrades)
+
+// We using map now 
