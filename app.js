@@ -147,4 +147,7 @@ console.log(document.querySelector ('#title'))
 
 console.log(document.querySelector('.title')).innerHTML = 'DIEGO'
 
-// 
+// To change CSS
+
+console.log(document.querySelector('.title')).style.fontSize = '38px'
+
