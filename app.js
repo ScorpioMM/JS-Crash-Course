@@ -145,9 +145,9 @@ console.log(document.querySelector ('#title'))
 
 // DOMs w no ID
 
-console.log(document.querySelector('.title')).innerHTML = 'DIEGO'
+// console.log(document.querySelector('.title')).innerHTML = 'DIEGO'
 
 // To change CSS
 
-console.log(document.querySelector('.title')).style.fontSize = '38px'
+console.log(document.querySelector('.title2')).style.fontsize = "41px"
 
