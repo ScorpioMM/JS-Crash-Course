@@ -1,5 +1,17 @@
-function isLoggedInAndSubscribe(login, subscribe) {
-return (login == "logged_in" || subscribe == "subscribe" ) }
- 
+function karim(num1) {
 
-console.log(isLoggedInAndSubscribe("logged_in" , "subscribe"))
+return num1 > 0;
+
+}
+ 
+console.log(karim(-5))
+
+
+function nameas(Logged_In , Subscribe){
+
+if (Logged_In == `logged_In` && Subscribe == `pass`){
+    return true;
+}
+}
+
+console.log(nameas(`logged_In` , 'pass'))
