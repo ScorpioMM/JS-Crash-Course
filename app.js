@@ -1,7 +1,6 @@
-function calcAreaOfTriangle(base, height){
-    
-    return 0.5 * base * height ;
+function appendFrontend(string){
+  return `Frontend` + string
 }
 
-console.log(calcAreaOfTriangle(3,2));
+console.log(appendFrontend('apple'));
 
