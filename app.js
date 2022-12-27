@@ -149,5 +149,5 @@ console.log(document.querySelector ('#title'))
 
 // To change CSS
 
-console.log(document.querySelector('.title2')).style.fontsize = "41px"
+//console.log(document.querySelector('.title2')).style.fontsize = "41px"
 
