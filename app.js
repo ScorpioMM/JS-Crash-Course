@@ -1,15 +1,21 @@
-function arrLenght(arr) {
+//function arrLength(arr) {
 
-return arr[arrLenght-1];
+//return arr[arr.length - 1];
 
+//}
+
+//console.log(arrLength([1,2,4,8,5]));
+
+
+
+function karim (num1) {
+
+if (num1 != 0) {
+    return true;
+}
+else {
+    return false;
+}
 }
 
-console.log(arrLenght([null, 5, false]));
-
-
-
-function karim (num1, num2) {
-    return num1 + num2
-}
-
-console.log(karim(5,7))
+console.log(karim(''))
