@@ -1,7 +1,8 @@
-function str (logged_in , subscribe) {
+function arrLenght (arr) {
 
-    return logged_in === 'loggedin' && subscribe === 'subscribe'
+return arr[arrLenght-1];
+
 }
 
+console.log(arrLenght([null, 5, false]));
 
-console.log(str('loggedin' , 'unsubscribe'))
