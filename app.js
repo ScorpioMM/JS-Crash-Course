@@ -1,5 +1,7 @@
-function str (frontend){
-    return frontend + `frontend`
+function str (logged_in , subscribe) {
+
+    return logged_in === 'loggedin' && subscribe === 'subscribe'
 }
 
-console.log(str(`banana`))
+
+console.log(str('loggedin' , 'unsubscribe'))
