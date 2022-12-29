@@ -1,20 +1,7 @@
-//function arrLength(arr) {
+function karim (arr){
 
-//return arr[arr.length - 1];
-
-//}
-
-//console.log(arrLength([1,2,4,8,5]));
-
-function karim (loggedIn, subscribe) {
-
-    if (loggedIn === 'logged_in' && subscribe === 'subscribe'){
-        return true;
-    }
-    else {
-        return false;
-    }
+return arr[[1]]
 
 }
 
-console.log(karim('logged_n' , "subscribe"))
+console.log(karim([3, 2, 0, 6, 2]))
