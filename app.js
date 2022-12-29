@@ -6,16 +6,15 @@
 
 //console.log(arrLength([1,2,4,8,5]));
 
+function karim (loggedIn, subscribe) {
 
+    if (loggedIn === 'logged_in' && subscribe === 'subscribe'){
+        return true;
+    }
+    else {
+        return false;
+    }
 
-function karim (num1) {
-
-if (num1 != 0) {
-    return true;
 }
-else {
-    return false;
-}
-}
 
-console.log(karim(''))
+console.log(karim('logged_n' , "subscribe"))
