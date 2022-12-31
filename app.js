@@ -1,9 +1,11 @@
-function karim (elem1){
-    let sum = 0;
-    for (i = 0; i < elem1.length; ++i){
-        sum = sum + elem1[i];
-    }
-    return sum;
+function karim(arr) {
+return arr.length
 }
 
-console.log(karim([2,3,5]))
+console.log(karim([5, 5, 6, 7]))
+
+function diego (num1, num2){
+    return num1 + num2
+}
+
+console.log(diego(5, 10))
