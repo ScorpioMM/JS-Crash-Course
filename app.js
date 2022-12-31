@@ -31,3 +31,22 @@ let newArr = arr.filter((element) => {
 })
 
 console.log(newArr)
+
+let nigga = [50, 60]
+
+let newNigga = nigga.map ((elem) => {
+    console.log(elem) 
+    return `BITCH`;
+})
+
+console.log(newNigga)
+
+
+let dollars = [1, 5, 7, 8]
+let cents = []
+
+for (let i = 0; i < dollars.length; i++) {
+    cents.push(dollars[i] * 100)
+}
+
+console.log(cents)
