@@ -11,26 +11,26 @@
 //console.log(diego(5, 10))
 
 
-let dogs = [20, 30, 40, 50, 60]
+//let dogs = [20, 30, 40, 50, 60]
 
-console.log(dogs); 
+//console.log(dogs); 
 
-console.log(dogs.length)
+//console.log(dogs.length)
 
-dogs.push(300);
+//dogs.push(300);
 
-console.log(dogs)
+//console.log(dogs)
 
 
-let arr = [ 40, 50, 100] 
+//let arr = [ 40, 50, 100] 
 
-let newArr = arr.filter((element) => {
-    if (element < 50) {
-        return true;
-    }
-})
+//let newArr = arr.filter((element) => {
+  //  if (element < 50) {
+   //     return true;
+    //}
+//})
 
-console.log(newArr)
+//console.log(newArr)
 
 let nigga = [50, 60]
 
