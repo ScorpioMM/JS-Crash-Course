@@ -36,7 +36,7 @@ let nigga = [50, 60]
 
 let newNigga = nigga.map ((elem) => {
     console.log(elem) 
-    return `BITCH`;
+    return `SKEREEEE`;
 })
 
 console.log(newNigga)
