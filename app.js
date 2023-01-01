@@ -1,7 +1,6 @@
-function diego (length, width) {
-
-return 2 * ( length + width )
-    
+function diego (num1) {
+    return num1 < false 
 }
+    
 
-console.log(diego(2, 9))
+console.log(diego(false))
