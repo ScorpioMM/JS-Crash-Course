@@ -38,6 +38,8 @@ for (let i = 0; i < arr.length; ++i){
 
 console.log(arrNew)
 
+// Filter method
+
 let pussy = [20, 30 , 40, 50, 60] 
 let newPussy = pussy.filter((element) => {
     if (element < 50){
@@ -46,3 +48,13 @@ let newPussy = pussy.filter((element) => {
 })
 
 console.log(newPussy)
+
+//map method
+
+
+let maki = [40, 50]
+let newMaki = maki.map ((element) => {
+    return 'Karim';
+})
+
+console.log(newMaki)
