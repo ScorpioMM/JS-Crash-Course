@@ -58,3 +58,17 @@ let newMaki = maki.map ((element) => {
 })
 
 console.log(newMaki)
+
+// Without using the map method
+
+let dollars = [1, 2, 3, 10]
+let cents = []
+for (let i = 0; i < dollars.length; ++i){
+    cents.push(dollars[i] * 100)
+}
+
+console.log(cents);
+
+// DOMS
+
+// console.log(document.querySelector('h1'))
