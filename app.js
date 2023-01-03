@@ -38,4 +38,11 @@ for (let i = 0; i < arr.length; ++i){
 
 console.log(arrNew)
 
-// 
+let pussy = [20, 30 , 40, 50, 60] 
+let newPussy = pussy.filter((element) => {
+    if (element < 50){
+        return true;
+    }
+})
+
+console.log(newPussy)
