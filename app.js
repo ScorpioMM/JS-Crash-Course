@@ -1,74 +1,9 @@
-// Foor Loops
+// Beginner Challenges
 
-let diego = ('Frontend Simplified') 
-for (let i = 0; i < diego.length; ++i){
+function arr (hours){
 
-    if (i % 3 === 0 && i % 5 === 0){
-        console.log(`${i} -- > FrontendSimplified`)
-    }
-else if ( i % 3 === 0){
-    console.log(`${i} --> Frontend`)
-}
-else if ( i % 5 === 0){
-    console.log(`${i} --> Simplified`)
+ let seconds = (hours * 60) * 60
+return seconds;
 }
 
-else {
-    console.log(`${i} --> ${i}`)
-}
-}
-
-// Functions
-
-function karim (num1, num2) {
-    return num1 + num2
-}
-
-console.log(karim(10, 20))
-
-//Arrays
-
-let arr = ['A+' , 'A', 'F']
-let arrNew = []
-for (let i = 0; i < arr.length; ++i){
-    if (arr[i] !== 'F')
-    arrNew.push(arr[i]);
-
-}
-
-console.log(arrNew)
-
-// Filter method
-
-let pussy = [20, 30 , 40, 50, 60] 
-let newPussy = pussy.filter((element) => {
-    if (element < 50){
-        return true;
-    }
-})
-
-console.log(newPussy)
-
-//map method
-
-
-let maki = [40, 50]
-let newMaki = maki.map ((element) => {
-    return 'Karim';
-})
-
-console.log(newMaki)
-
-// Without using the map method
-
-let dollars = [1, 2, 3, 10]
-let cents = []
-for (let i = 0; i < dollars.length; ++i){
-    cents.push(dollars[i] * 100)
-}
-
-console.log(cents);
-
-// DOMS
-
-// console.log(document.querySelector('h1'))
+console.log(arr(2))
