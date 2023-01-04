@@ -1,9 +1,9 @@
 // Beginner Challenges
 
-function arr (hours){
+function arr (length, width){
 
- let seconds = (hours * 60) * 60
-return seconds;
+return 2 * (length + width)
+
 }
 
-console.log(arr(2))
+console.log(arr(10, 20))
