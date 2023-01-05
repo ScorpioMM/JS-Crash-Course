@@ -1,8 +1,13 @@
-function karim (arr){
-   let sum = 0;
-   for ( let i = 1; i <= arr; ++i){
-   sum = sum + i;
-   }
-   return sum;
+function calcTime (seconds){
+let timerMinutes = Math.floor(seconds / 60);    
+let timerSeconds = seconds % 60;
+
+if(timerMinutes.toString().length === 1){
+timerMinutes = '0' + timerMinutes
 }
-console.log(karim([3]))
+
+return timerMinutes + ':' + timerSeconds;
+
+}
+
+console.log(calcTime(70))
