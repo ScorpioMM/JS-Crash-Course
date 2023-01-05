@@ -1,18 +1,7 @@
-// Beginner Challenges
+function karim (num1, num2) {
 
-function arr (logged_in, subscribe){
-
-return logged_in === 'logged_in' || subscribe  === 'subscribe' 
+return !!num1 ? num1 : num2
 
 }
 
-console.log(arr('logged_in' , 'subscribe'))
-
-
-// function karim (str){
-
-// return !str; 
-
-// }
-
-// console.log(karim(false)) 
+console.log(karim(0, 500))
