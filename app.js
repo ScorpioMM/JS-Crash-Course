@@ -1,18 +1,18 @@
 // Beginner Challenges
 
-function arr (num1, num2){
+function arr (num1){
 
-return num1 + num2 > 100
-
-}
-
-console.log(arr(100, 60))
-
-
-function karim (str){
-
-return  str <= 0
+return num1 != 0
 
 }
 
-console.log(karim(3)) 
+console.log(arr(0))
+
+
+// function karim (str){
+
+return !str; 
+
+// }
+
+// console.log(karim(false)) 
