@@ -1,9 +1,18 @@
 // Beginner Challenges
 
-function arr (length, width){
+function arr (base, height){
 
-return 2 * (length + width)
+return (1 / 2 ) * base * height
 
 }
 
-console.log(arr(10, 20))
+console.log(arr(10, 10))
+
+
+function karim (string){
+
+return  string + 'frontend'
+
+}
+
+console.log(karim('banana')) 
