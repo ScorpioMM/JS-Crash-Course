@@ -1,12 +1,8 @@
-function maki (arr) {
-    let sum = 0;
-    for (let i =0; i < arr.length; ++i){
-    // This is how you loop throught every element in an array
-sum = sum + arr[i]
+function karim (arr){
+   let sum = 0;
+   for ( let i = 1; i <= arr; ++i){
+   sum = sum + i;
+   }
+   return sum;
 }
-return sum;
-}
-
-console.log(maki([2,2,2]))
-
-
+console.log(karim([3]))
