@@ -1,17 +1,21 @@
 // Beginner Challenges
 
-function arr (num1){
+function arr (num1, num2){
 
-return num1 != 0
-
+if (num1 % 2 === 0){
+    return false;
+}
+else {
+    return true;
+}
 }
 
-console.log(arr(0))
+console.log(arr(7))
 
 
 // function karim (str){
 
-return !str; 
+// return !str; 
 
 // }
 
