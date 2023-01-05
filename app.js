@@ -1,18 +1,18 @@
 // Beginner Challenges
 
-function arr (base, height){
+function arr (num1, num2){
 
-return (1 / 2 ) * base * height
-
-}
-
-console.log(arr(10, 10))
-
-
-function karim (string){
-
-return  string + 'frontend'
+return num1 + num2 > 100
 
 }
 
-console.log(karim('banana')) 
+console.log(arr(100, 60))
+
+
+function karim (str){
+
+return  str <= 0
+
+}
+
+console.log(karim(3)) 
