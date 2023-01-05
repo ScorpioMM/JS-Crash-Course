@@ -1,16 +1,12 @@
 // Beginner Challenges
 
-function arr (num1, num2){
+function arr (logged_in, subscribe){
 
-if (num1 % 2 === 0){
-    return false;
-}
-else {
-    return true;
-}
+return logged_in === 'logged_in' || subscribe  === 'subscribe' 
+
 }
 
-console.log(arr(7))
+console.log(arr('logged_in' , 'subscribe'))
 
 
 // function karim (str){
