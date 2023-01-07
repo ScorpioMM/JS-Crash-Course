@@ -15,14 +15,13 @@
 // When doing sums & trynna get the biggest (smallest ? ) we always use a new variable. But on the second option, we use the same name, just different number 
 
 
-function gracias(arr){
-    let max = 0;
-    for (let i = 0; i < arr.length; ++i){
-        if (arr[i] > max){
-            max = arr[i]
-        }
+function diego (elem1) {
+   let sum = 0;
+   for (let i = 0; i < elem1.length; ++i){
+    if (sum + elem1[0]){
+        sum = sum + elem1[0]
     }
-    return max;
+   }
+   return sum;
 }
-
-console.log(gracias([100, 400,200]))
+console.log(diego([3,3,3]))
