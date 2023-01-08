@@ -1,3 +1,16 @@
+let money = [20, 30, 40, 50, 60, 70]
+
+
+
+
+
+
+
+
+
+
+
+
 // TIME //
 
 
@@ -19,15 +32,15 @@
 
 //function diego (num1){
 
- //   let sum = 0; 
- //   for (let i = 0; i <num1.length; ++i){
- //       sum = sum + num1[0];
+//   let sum = 0; 
+//   for (let i = 0; i <num1.length; ++i){
+//       sum = sum + num1[0];
 //    }
- //   return sum;
+//   return sum;
     
- //   }
+//   }
     
- //   console.log(diego([,2,4,4,2,6]))
+//   console.log(diego([,2,4,4,2,6]))
 
 
 // SHIT TEST, IN THEIR DNA, MAN. YOU GOTTA KNOW THEY ARE ALWAYS TESTING YOU, PLEASE, PLEASE DONT FAIL THEM OR AT LEAST BE AWARE OF THEM.    
