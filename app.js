@@ -51,15 +51,18 @@
 // Start making better decisions, first for yourself and then the group around you, guide
 
 
-function array(arr){
-for (let i = 0; i < arr.length; ++i){
-    //This is how you loop every character in the string. 
-    console.log(arr[i]);
-}
-    
-}
 
+//This is how you loop every character in the string. 
+
+function array(arr){
+    let reversedString;
+for (let i = 0; i < arr.length; ++i){
+    reversedString = arr[i] + reversedString; 
+}
+return reversedString
+}
 console.log(array('Diego'))
+
 
 
 
