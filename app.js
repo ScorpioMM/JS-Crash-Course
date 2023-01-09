@@ -51,18 +51,15 @@
 // Start making better decisions, first for yourself and then the group around you, guide
 
 
-function karim (arr){
-let max = arr[0];
-
-for(let i = 0; i < arr.length; ++i){
-if (arr[i] > max){
-    max = arr[i]
+function array(arr){
+for (let i = 0; i < arr.length; ++i){
+    //This is how you loop every character in the string. 
+    console.log(arr[i]);
 }
-    }
-    return max;
+    
 }
 
-console.log(karim([200,-111,500]))
+console.log(array('Diego'))
 
 
 
