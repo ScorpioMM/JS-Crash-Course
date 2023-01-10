@@ -55,10 +55,7 @@
 //This is how you loop every character in the string. 
 
 function array(arr){
-let array = ' ' ;
-for (let i = arr.length; i >= 0; --i){
-    console.log(arr[i])
-}
+return arr.split('').reverse().join('');
 
 }
 console.log(array('diego'))
