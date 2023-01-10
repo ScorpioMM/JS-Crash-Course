@@ -55,13 +55,13 @@
 //This is how you loop every character in the string. 
 
 function array(arr){
-    let reversedString;
+let array = ' ' ;
 for (let i = 0; i < arr.length; ++i){
-    reversedString = arr[i] + reversedString; 
+    array = arr[i] + array; 
 }
-return reversedString
+return array
 }
-console.log(array('Diego'))
+console.log(array('diego'))
 
 
 
