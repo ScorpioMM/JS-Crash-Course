@@ -37,7 +37,7 @@
 
 
 // MONEY, I LOVE YOU SO MUCH, MAN, IM SORRY FOR LEAVING YOU. YOU KNOW I WAS TRYING TO GET EVEN MORE OF YOU BUT I DIDNT KNOW HOW TO MAKE THAT WISH BETTER, THEREFORE I ENDED UP TAKING REALLY BAD DECISIONS, MONETEARALY SPEAKING.
-// I STILL THANK YOU A LOT THO BECAUSE SOMEHOW I ALWAYS FIND A WAY BUT WITH THE SAME RESULTS, I WANNA HAVE YOU FOREVER, TIL THE MY WHOLE BLOODLINE DISAPEARS, BUT HOW CAN I MAKE THIS A REALITY ? 
+// I STILL THANK YOU A LOT THO BECAUSE SOMEHOW I ALWAYS FIND A WAY BUT WITH THE SAME RESULTS, I WANNA KEEP YOU AROUND FOREVER, UNTIL MY WHOLE BLOODLINE DISAPEARS, BUT HOW CAN I MAKE THIS A REALITY ? 
 // MENTORS ALWAYS START OFF BY SAYING, "THANK THE MONEY THAT YOU USE BECAUSE IT GOES WHERE IT NEEDS TO BE" SOMETHING LIKE THAT. BUT ANYWAYS, HOW?
 // Being THANKFUL, FEEL HOW U USED TO FEEL... GOING TO WORK, EVERYDAY, EVEN THO YOU HATED IT YOU STILL DID... AND YOU WERE GOING TO SCHOOL AND YOU HAD A GIRL!! YOU WERE DOING EVERYTHING, ONLY IF..
 // I COULD START OFF FROM THERE BUT WITH ALL MY IMPROVEMENTS AND LESSONS THAT I HAVE TODAY.
@@ -48,17 +48,40 @@
 
 // GRACIAS DINERO :) . Everytime you use it, no matter on what, be thankful.
 
-// Start making better decisions, first for yourself and then the group around you, guide
+// Start making better decisions, first for yourself and then the group around you
 
 
 
 //This is how you loop every character in the string. 
 
 function array(arr){
-return arr.split('').reverse().join('');
+return arr.split('')
 
 }
 console.log(array('diego'))
+
+// Foor loops 
+
+let str = ('Frontend Simplified')
+
+for (let i = 0; i < str.length; ++i){
+
+if (i % 3 === 0 && i % 5 === 0){
+    console.log(`${i} frontend simplified`)
+}
+else if (i % 3 === 0){
+    console.log(`${i} frontend`)
+}
+else if (i % 5 === 0){
+    console.log(`${i} -- > simplified`)
+}
+else {
+    console.log(`${i} --> ${i}`)
+}
+
+}
+
+
 
 
 
