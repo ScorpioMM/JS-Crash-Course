@@ -56,10 +56,10 @@
 
 function array(arr){
 let array = ' ' ;
-for (let i = 0; i < arr.length; ++i){
-    array = arr[i] + array; 
+for (let i = arr.length; i >= 0; --i){
+    console.log(arr[i])
 }
-return array
+
 }
 console.log(array('diego'))
 
