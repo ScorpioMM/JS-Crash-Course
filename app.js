@@ -81,6 +81,11 @@ else {
 
 }
 
+let money = [20,30,40,50]
+
+money.push(200)
+
+console.log(money);
 
 
 
