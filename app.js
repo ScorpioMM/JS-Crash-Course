@@ -88,6 +88,6 @@ money.push(200)
 console.log(money);
 
 
-
+// Thanks for everything, I wanna be the whole package, not just the normal one. EVERY THING... Like Ronaldo, I wanna become that guy, I need to excell that energy. Need to focus on my voice volume, think before speaking & improving even more my physic... Tired of these niggas downplaying my shit. I deserve it and Im going to get it. Amen. 
 
 
