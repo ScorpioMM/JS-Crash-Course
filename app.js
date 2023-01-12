@@ -91,10 +91,18 @@ console.log(money);
 // Thanks for everything, I wanna be the whole package, not just the normal one. EVERY THING... Like Ronaldo, I wanna become that guy, I need to excell that energy. Need to focus on my voice volume, think before speaking & improving even more my physic... Tired of these niggas downplaying my shit. I deserve it and Im going to get it. Amen. 
 
 
-let arr = [30,40,50,200,300,80]
+let arr = [30,40,50,200,300]
 let newArr = arr.filter((element) => {
-    if (element < 300){
+    if (element < 200){
         return true;
     }
 })
 console.log(newArr)
+
+
+let arre = [1,2,3,4]
+let newArre = arre.map((elem) => {
+    return 'i deserve respect and a fine face with videos included.'
+})
+
+console.log(newArre);
