@@ -126,14 +126,16 @@ function login (email,password){
     for (let i = 0; i < login.length; ++i){
         if (users[i].email === 'karim1213'){
             console.log(users[i])
+            if (users[i].password === 'karimm'){
+                console.log('Log the user in')
+            }
+            else {
+                console.log('wrong password')
+            }
+            return;
         }
-        if (users[i].password === 'karimm'){
-            console.log('Log the user in')
-        }
-        else {
-            console.log('wrong password')
-        }
-        return;
     }
-console.log('couldnt find an email')    
+    console.log('couldnt find an email')    
 }
+
+login('karim1213' , 'karimm')
