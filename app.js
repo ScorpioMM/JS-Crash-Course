@@ -106,3 +106,34 @@ let newArre = arre.map((elem) => {
 })
 
 console.log(newArre);
+
+
+console.log(fetch("https://jsonplaceholder.typicode.com/users/1"))
+
+let users =[{
+    username: 'Karim' ,
+    email: 'karim1213',
+    password: 'karimm',
+    subscriptionStatus: 'VIP' ,
+    discordID: '001K',
+    lessonsLearned: [0,1] ,
+
+    
+}]
+    
+    
+function login (email,password){
+    for (let i = 0; i < login.length; ++i){
+        if (users[i].email === 'karim1213'){
+            console.log(users[i])
+        }
+        if (users[i].password === 'karimm'){
+            console.log('Log the user in')
+        }
+        else {
+            console.log('wrong password')
+        }
+        return;
+    }
+console.log('couldnt find an email')    
+}
