@@ -108,6 +108,9 @@ let newArre = arre.map((elem) => {
 console.log(newArre);
 
 
+// OBJECTS
+
+
 console.log(fetch("https://jsonplaceholder.typicode.com/users/1"))
 
 let users =[{
