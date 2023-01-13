@@ -1,15 +1,15 @@
 // TIME //
 
 
-//function time(seconds){
-//    let timeMinutes = Math.floor(seconds / 60)
-//    let timeSeconds = seconds % 60
-//    if(timeMinutes.toString().length === 1){
-//        timeMinutes = '0' + timeMinutes
-//    }
-//    return timeMinutes + ':' + timeSeconds
-//}
-//console.log(time(500))
+function time(seconds){
+let timeMinutes = Math.floor(seconds / 60)
+let timeSeconds = seconds % 60
+if(timeMinutes.toString().length === 1){
+timeMinutes = '0' + timeMinutes
+}
+return timeMinutes + ':' + timeSeconds
+}
+console.log(time(500))
 
 
 
