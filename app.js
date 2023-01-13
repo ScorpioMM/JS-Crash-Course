@@ -139,3 +139,20 @@ function login (email,password){
 }
 
 login('karim1213' , 'karimm')
+
+// Register 
+
+function register (user){
+    users.push(user)
+}
+
+register ({
+    username: 'Karim' ,
+    email: 'karim1213',
+    password: 'karimm',
+    subscriptionStatus: 'VIP' ,
+    discordID: '001K',
+    lessonsLearned: [0,1] ,
+})
+
+console.log(users);
