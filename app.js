@@ -27,7 +27,7 @@ return sum;
     
 }
     
-  console.log(diego([,2,4,4,2,6]))
+  console.log(diego([2,4,4,2,6]))
 
 
 // SHIT TEST, IN THEIR DNA, MAN. YOU GOTTA KNOW THEY ARE ALWAYS TESTING YOU, PLEASE, PLEASE DONT FAIL THEM OR AT LEAST BE AWARE OF THEM.    
@@ -125,7 +125,7 @@ let users =[{
 }]
     
     
-function login (email,password){
+function login (email, password){
     for (let i = 0; i < login.length; ++i){
         if (users[i].email === 'karim1213'){
             console.log(users[i])
@@ -159,3 +159,17 @@ register ({
 })
 
 console.log(users);
+
+// Loop throught every word
+
+function frontendsimplified (arr){
+    for (let i = 0; i < arr.length; i++){
+        
+        console.log(frontendsimplified[i])
+    }
+
+}
+
+
+// Si, este soy yo y me vale verga. No te da pena ser quien eres. Monitorea tu lenguaje no verbal y frame
+// Mira a los ojos derechos, conexion instanteana. 
