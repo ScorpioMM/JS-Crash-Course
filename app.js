@@ -127,8 +127,8 @@ function frontendsimplified (arr){
 
 // Beginner Challenges
 
-function paula (length, wide){
-return wide + wide + length + length
+function paula (arr){
+return arr + 'frontend'
 }
 
-console.log(paula(6,7))
+console.log(paula('apple'))
