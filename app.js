@@ -131,8 +131,8 @@ function frontendsimplified (arr){
 
 // Jesus is KING but I still like my belives > : ) 
 
-// One way to improve your relationships are GIVING; giving what? 
-// Giving Time, Confort, Attention, Space, non tangible things//stuff
+// One way to improve your relationships are GIVING; give what? 
+// Give Time, Confort, Attention, Space, non tangible things//stuff
 // And of course, money too! Besides those points
 // Learn how to read what the other person wants ;) 
 
@@ -143,3 +143,5 @@ return num11 + num22
 }
 
 console.log(paula(2,2))
+
+//Now, exercise your mouth, move it around and relax... Just relax and talk your mind
