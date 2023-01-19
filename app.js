@@ -127,11 +127,19 @@ function frontendsimplified (arr){
 
 // Beginner Challenges
 
-function paula (arr){
-   return arr <= 0;
-}
 
-console.log(paula(3))
-   
 
 // Jesus is KING but I still like my belives > : ) 
+
+// One way to improve your relationships are GIVING; giving what? 
+// Giving Time, Confort, Attention, Space, non tangible things//stuff
+// And of course, money too! Besides those points
+// Learn how to read what the other person wants ;) 
+
+// Thnaks Gerry
+
+function paula (num11,num22){
+return num11 + num22
+}
+
+console.log(paula(2,2))
