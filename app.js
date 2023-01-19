@@ -1,6 +1,5 @@
 // TIME //
 
-
 function time(seconds){
 let timeMinutes = Math.floor(seconds / 60)
 let timeSeconds = seconds % 60
@@ -10,7 +9,6 @@ timeMinutes = '0' + timeMinutes
 return timeMinutes + ':' + timeSeconds
 }
 console.log(time(500))
-
 
 
 
@@ -30,10 +28,10 @@ return sum;
   console.log(diego([2,4,4,2,6]))
 
 
+
 // SHIT TEST, IN THEIR DNA, MAN. YOU GOTTA KNOW THEY ARE ALWAYS TESTING YOU, PLEASE, PLEASE DONT FAIL THEM OR AT LEAST BE AWARE OF THEM.    
 // You are failing all of them, u r supposed to past those little tests. tienes que ser unmune, literalmente, menos emocional 
     
-
 
 
 // MONEY, I LOVE YOU SO MUCH, MAN, IM SORRY FOR LEAVING YOU. YOU KNOW I WAS TRYING TO GET EVEN MORE OF YOU BUT I DIDNT KNOW HOW TO MAKE THAT WISH BETTER, THEREFORE I ENDED UP TAKING REALLY BAD DECISIONS, MONETEARALY SPEAKING.
@@ -53,6 +51,11 @@ return sum;
 
 
 //This is how you loop every character in the string. 
+
+function strr (arrrr){
+    console.log(strr[i])
+}
+
 
 function array(arr){
 return arr.split('')
