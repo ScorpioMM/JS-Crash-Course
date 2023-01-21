@@ -65,18 +65,18 @@ console.log(array('diego'))
 
 // Foor loops 
 
-let str = ('Frontend Simplified')
+let str = ('Im good selling stuff')
 
 for (let i = 0; i < str.length; ++i){
 
 if (i % 3 === 0 && i % 5 === 0){
-    console.log(`${i} frontend simplified`)
+    console.log(`${i} I've mastered sells`)
 }
 else if (i % 3 === 0){
-    console.log(`${i} frontend`)
+    console.log(`${i} sells`)
 }
 else if (i % 5 === 0){
-    console.log(`${i} -- > simplified`)
+    console.log(`${i} -- > popular`)
 }
 else {
     console.log(`${i} --> ${i}`)
