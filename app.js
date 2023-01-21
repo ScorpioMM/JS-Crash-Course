@@ -149,3 +149,7 @@ console.log(paula(2,2))
 
 //Now, exercise your mouth, move it around and relax... Just relax and talk your mind
 // Im thankful that Im a photogenic person, no matter what angle, what haircut, what face, Im photogenic either way.
+
+
+//What's the equation behind this Mensa IQ Test... Look for patterns and problem solving. 
+// Thnkful. Gracias, Grazie
