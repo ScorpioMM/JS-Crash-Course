@@ -1,14 +1,14 @@
 // TIME //
 
-function time(seconds){
-let timeMinutes = Math.floor(seconds / 60)
-let timeSeconds = seconds % 60
-if(timeMinutes.toString().length === 1){
-timeMinutes = '0' + timeMinutes
-}
-return timeMinutes + ':' + timeSeconds
-}
-console.log(time(500))
+//function time(seconds){
+//let timeMinutes = Math.floor(seconds / 60)
+//let timeSeconds = seconds % 60
+//if(timeMinutes.toString().length === 1){
+//timeMinutes = '0' + timeMinutes
+//}
+//return timeMinutes + ':' + timeSeconds
+//}
+//console.log(time(500))
 
 
 
@@ -26,8 +26,6 @@ return sum;
 }
     
   console.log(diego([2,4,4,2,6]))
-
-
 
 // SHIT TEST, IN THEIR DNA, MAN. YOU GOTTA KNOW THEY ARE ALWAYS TESTING YOU, PLEASE, PLEASE DONT FAIL THEM OR AT LEAST BE AWARE OF THEM.    
 // You are failing all of them, u r supposed to past those little tests. tienes que ser unmune, literalmente, menos emocional 
@@ -52,16 +50,16 @@ return sum;
 
 //This is how you loop every character in the string. 
 
-function strr (arrrr){
-    console.log(strr[i])
-}
+//function strr (arrrr){
+//    console.log(strr[i])
+//}
 
 
-function array(arr){
-return arr.split('')
+//function array(arr){
+//return arr.split('')
 
-}
-console.log(array('diego'))
+//}
+//console.log(array('diego'))
 
 // Foor loops 
 
@@ -153,3 +151,7 @@ console.log(paula(2,2))
 
 //What's the equation behind this Mensa IQ Test... Look for patterns and problem solving. 
 // Thnkful. Gracias, Grazie
+
+
+
+//Alright!!! 
