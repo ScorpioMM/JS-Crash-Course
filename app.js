@@ -157,3 +157,6 @@ console.log(paula(2,2))
 //Alright!!! We getting back at it. Lets see how it goes and how u smart u get by doing all this :) 
 
 //Back at it
+
+
+// Re-learning 
