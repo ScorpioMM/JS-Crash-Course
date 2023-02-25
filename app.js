@@ -1,17 +1,7 @@
-//Return the sum of giving numbers
+// Area of a Triangle
 
-function addition(num1, num2){
-   return num1 + num2
+function calcarea(base, heigth){
+    return 0.5 * base * heigth
 }
 
-console.log(addition(2,3))
-
-
-//Hours into Seconds
-
-function time(hours){
-    let seconds = (hours * 60) * 60
-    return seconds
-}
-
-console.log(time(2))
+console.log(calcarea(20,20))
