@@ -1,7 +1,7 @@
-// Area of a Triangle
+// JS Problem Solving
 
-function calcarea(base, heigth){
-    return 0.5 * base * heigth
+function str (num1){
+return 4 + num1
 }
 
-console.log(calcarea(20,20))
+console.log(str('1'))
