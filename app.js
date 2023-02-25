@@ -1,7 +1,13 @@
-// JS Problem Solving
+// Greater than
 
-function str (num1){
-return 4 + num1
+function sumgreater (num1,num2){
+    if (num1 + num2 > 100){
+        return true
+    }
+    else {
+        return false
+    }
+
 }
-
-console.log(str('1'))
+ 
+console.log(sumgreater(50, 100))
