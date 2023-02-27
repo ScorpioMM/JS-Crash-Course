@@ -1,13 +1,12 @@
-// Greater than
+// Reversed String
 
-function sumgreater (num1,num2){
-    if (num1 + num2 > 100){
-        return true
-    }
-    else {
-        return false
-    }
-
+function str (arr){
+    let str = '';
+for (let i = arr.length -1 ; i >= 0; --i){
+console.log(arr[i])
 }
- 
-console.log(sumgreater(50, 100))
+}
+console.log(str('Karim'))
+
+
+// 
