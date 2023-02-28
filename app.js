@@ -16,3 +16,11 @@ return num1;
 }
 
 console.log(strings([12, 200])) 
+
+// Arrys to 0's
+
+function wtv (newarr){
+    return new Array(newarr.length).fill(0)
+}
+
+console.log(wtv([12,12323,23212,4]))
