@@ -29,8 +29,24 @@ console.log(wtv([12,12323,23212,4]))
 
 function dotmap(ArrE){
 return ArrE.map(elem => {
-return 0
+return 'karim'
 })
 }
 
 console.log(dotmap([1,2,23,1]))
+
+// Filter out all the apples
+
+// !== MEANS IT'S NOT!!!
+
+function smartnigga(money){
+
+    for (let i =0; i < money.length; ++i){
+if (money[i] !== 'apples'){
+    console.log(money[i])
+}
+    }
+
+}
+
+console.log(smartnigga(['banana' , 'apples' , 'money' , 'genius']))
