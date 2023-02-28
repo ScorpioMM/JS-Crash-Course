@@ -40,12 +40,13 @@ console.log(dotmap([1,2,23,1]))
 // !== MEANS IT'S NOT!!!
 
 function smartnigga(money){
-
+let intelectual = []
     for (let i =0; i < money.length; ++i){
 if (money[i] !== 'apples'){
-    console.log(money[i])
+    intelectual.push(money[i])
 }
     }
+    return intelectual
 
 }
 
