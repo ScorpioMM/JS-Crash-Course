@@ -24,3 +24,11 @@ function wtv (newarr){
 }
 
 console.log(wtv([12,12323,23212,4]))
+
+// Maps
+
+function dotmap(ArrE){
+
+}
+
+console.log(dotmap([1,2,23,1]))
