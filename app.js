@@ -51,3 +51,6 @@ if (money[i] !== 'apples'){
 }
 
 console.log(smartnigga(['banana' , 'apples' , 'money' , 'genius']))
+
+
+// Thnaks because im smart
