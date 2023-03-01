@@ -54,3 +54,5 @@ console.log(smartnigga(['banana' , 'apples' , 'money' , 'genius']))
 
 
 // Thnaks because im smart
+
+// Los Diablooh
