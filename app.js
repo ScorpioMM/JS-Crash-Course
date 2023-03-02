@@ -1,7 +1,12 @@
-// Bananas 
-
-function str (arr){
-   return arr.filter(elem => elem !== 'apple')
+function showRating(rating){
+    let ratings = "" ; 
+for (let i = 0; i < 4; ++i){
+if (i === 4){
+    ratings = ratings + "*"
+}
+    else {ratings = ratings + "*"}
+}
+return ratings
 }
 
-console.log(str(['apple' , 'orange' , 'banana']))
+console.log(showRating(4))
