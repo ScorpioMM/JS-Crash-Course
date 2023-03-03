@@ -1,8 +1,10 @@
 function str (arr){
-let sum = 0
-for (let i = 0; i < arr.length; ++i){
-    sum = sum + arr[i]
+    let max = arr[0]
+    for (let i = 0; i < arr.length; ++i){
+  if (arr[i] > max){
+    max = arr[i]
+  }
 }
-return sum;
+return max;
 }
-console.log(str([2,2,4,2,2]))
+console.log(str([2,2,2,5, 100]))
