@@ -1,12 +1,10 @@
-function showRating(rating){
-    let ratings = "" ; 
-for (let i = 0; i < 4; ++i){
-if (i === 4){
-    ratings = ratings + "*"
+function str (arr){
+   let karim = []
+    for (let i = 0; i < arr.length; ++i){
+   if (karim > arr[i]){
+karim = arr[i];
 }
-    else {ratings = ratings + "*"}
 }
-return ratings
+return karim
 }
-
-console.log(showRating(4))
+console.log(str([2,2,4,1]))
