@@ -1,5 +1,9 @@
-function str (elem1, elem2){
-    return !elem1 ? elem1 : elem2
+function str (arr){
+let reversedString = ""
+    for (let i = 0; i < arr.length; ++i){
+reversedString = arr[i] + reversedString
+}
+return reversedString;
 }
 
-console.log(str(0, 500))
+console.log(str('diego'))
