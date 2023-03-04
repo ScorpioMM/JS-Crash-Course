@@ -1,11 +1,5 @@
-function str (arr){
-    let max = arr[0]
-    for (let i = 0; i < arr.length; ++i){
-if (arr[i] > max){
-    max = arr[i]
-}
-}
-return max;
+function str (elem1, elem2){
+    return !elem1 ? elem1 : elem2
 }
 
-console.log(str([3, 10]))
+console.log(str(0, 500))
