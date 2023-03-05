@@ -1,9 +1,9 @@
 function str (arr){
-let sum = 0;
+let reversedString = ''
 for (let i = 0; i < arr.length; ++i){
- sum = sum + arr[i]
+    reversedString = arr[i] + reversedString;
 }
-return sum;
+return reversedString;
 }
 
-console.log(str([2,2,2]))
+console.log(str('K A R I M'))
