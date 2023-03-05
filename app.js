@@ -1,11 +1,9 @@
 function str (arr){
-let max = arr[0]
+let max = []
 for (let i = 0; i < arr.length; ++i){
-if (arr[i] > max){
-    max = arr[i]
+arr[i] = 0
 }
-}
-return max;
+return arr;
 }
 
-console.log(str([10,100,80]))
+console.log(str([10,100,80,10]))
