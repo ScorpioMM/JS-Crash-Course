@@ -1,9 +1,5 @@
 function str (arr){
-let max = []
-for (let i = 0; i < arr.length; ++i){
-arr[i] = 0
-}
-return arr;
+return  new Array(arr.length).fill(0)
 }
 
 console.log(str([10,100,80,10]))
