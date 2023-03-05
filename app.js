@@ -1,9 +1,11 @@
 function str (arr){
-let reversedString = ''
+let max = arr[0]
 for (let i = 0; i < arr.length; ++i){
-    reversedString = arr[i] + reversedString;
+if (arr[i] > max){
+    max = arr[i]
 }
-return reversedString;
+}
+return max;
 }
 
-console.log(str('K A R I M'))
+console.log(str([10,100,80]))
