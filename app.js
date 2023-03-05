@@ -1,5 +1,11 @@
 function str (arr){
-return  new Array(arr.length).fill(0)
+return arr.filter(elem => elem != 'apple')
 }
 
-console.log(str([10,100,80,10]))
+console.log(str(['banana' , 'apple' , 'orange']))
+
+// != IF ITS NOT!!!
+
+// We create a function as normal, as soon as u read filter using the filter method should already to come your mind.
+
+// We return, the str.filter (elem =>(IF) elem != 'banana' )
