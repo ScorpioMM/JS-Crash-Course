@@ -9,13 +9,7 @@
 // If not, its cool. 
 
 function str (arr){
-let noApples = []
-for (let i = 0; i < arr.length; ++i){
-    if (arr[i] !== 'apple'){
-        noApples.push(arr[i])
-    }
-}
-return noApples;
+return new Array(arr.length).fill(5);
 }
 
-console.log(str(['apple' , 'banana' , 'pears'])) 
+console.log(str([1,2,3,4])) 
