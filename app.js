@@ -9,7 +9,13 @@
 // If not, its cool. 
 
 function str (arr){
-return arr.filter(elem => elem !== 'apple' )
+let noApples = []
+for (let i = 0; i < arr.length; ++i){
+    if (arr[i] !== 'apple'){
+        noApples.push(arr[i])
+    }
+}
+return noApples;
 }
 
 console.log(str(['apple' , 'banana' , 'pears'])) 
