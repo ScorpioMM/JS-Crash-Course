@@ -9,7 +9,7 @@
 // If not, its cool. 
 
 function str (arr){
-return new Array(arr.length).fill(5);
+return new Array(arr.length).fill(6);
 }
 
 console.log(str([1,2,3,4])) 
