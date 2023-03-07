@@ -9,7 +9,10 @@
 // If not, its cool. 
 
 function str (arr){
-return new Array(arr.length).fill(6);
+for (let i = 0; i < arr.length; ++i){
+    arr[i] = 0
+}
+return arr;
 }
 
 console.log(str([1,2,3,4])) 
