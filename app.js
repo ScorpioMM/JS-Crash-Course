@@ -1,6 +1,11 @@
 function str (arr){
-    return arr.map(elem => elem * 2)
-
+let max = arr[0]
+for (let i = 0; i < arr.length; ++i){
+    if (arr[i] > max){
+        max = arr[i]
+    }
+}
+return max;
 }
 
-console.log(str([4,2,100]))
+console.log(str([4,2,100, 200]))
