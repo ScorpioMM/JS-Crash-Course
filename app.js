@@ -1,9 +1,9 @@
 function str (arr){
-let sum = 0;
-for (let i = 0; i < arr.length; ++i){
-    sum = sum + arr[i]
+let max = arr[0]
+if (arr > max){
+    max = arr[i]
 }
-return sum
+return max;
 }
 
-console.log(str([4, 4]))
+console.log(str([4, 4, 100]))
