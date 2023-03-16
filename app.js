@@ -9,10 +9,10 @@ console.log(str([4,4]))
 
 function str1 (elem1){
 let sum = 0;
-for (let i = 0; i < elem1.length; ++i){
-    sum = sum + elem1[i]
+for (let i = 1; i <= elem1; ++i){
+sum = sum + i
 }
 return sum;
 }
 
-console.log(str1([2,2,2,2]))
+console.log(str1([4]))
