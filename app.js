@@ -5,8 +5,7 @@ return new Array (arr.length).fill(0);
 console.log(str([4,4]))
 
 
-//Improve your memory. Using sounds to re wire your brain
-
+// HARA YOGA
 
 function str1 (elem1){
 let sum = 0;
