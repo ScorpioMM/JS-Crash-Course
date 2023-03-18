@@ -1,12 +1,9 @@
-function str (arr){
-    let max = arr[0];
-    for (let i = 0; i < arr.length; ++i){
-        if (arr[i] > max){
-            max = arr[i]
-        }
-    }
-    return max;
-
+function reversedString (arr){
+ let reversedString = ''
+ for (let i = arr.length - 1; i >= 0; --i){
+   reversedString = reversedString + arr[i]
+ }
+return reversedString;
 }
 
-console.log(str([20,100,20]))
+console.log(reversedString('abc'))
