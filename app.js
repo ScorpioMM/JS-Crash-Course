@@ -1,6 +1,6 @@
 function reversedString (arr){
  let reversedString = '';
- for(let i = arr.length + -1; i >= 0 ; --i){
+ for(let i = arr.length - 1; i >= 0 ; --i){
     reversedString = reversedString + arr[i]
  }
  return reversedString
@@ -18,3 +18,12 @@ function str (karim){
 }
 
 console.log(str([2,2,2]))
+
+
+
+function strr (uskar){
+return uskar.length
+}
+
+
+console.log(strr([1,1,1,1,1,1]))
