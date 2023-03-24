@@ -1,5 +1,11 @@
 function str (arr){
-    return arr.map(elem => 0)
+    let str = []
+    for (let i = 0; i < arr.length; ++i){
+        if (arr[i] !== 'Apples'){
+           str.push(arr[i])
+        }
+    }
+    return str
 }
 
-console.log(str([3,2,1]))
+console.log(str(['Apples' , 'Banana']))
