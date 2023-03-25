@@ -1,5 +1,5 @@
-function str (arr){
-return arr.filter(elem => elem !== 'Apples')
+function str (elem1, elem2){
+    return (!elem1) ? elem1 : elem2
 }
 
-console.log(str(['Banana' , 'Apples' , 'Orange']))
+console.log(str(10, 5))
