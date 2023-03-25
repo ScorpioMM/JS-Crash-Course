@@ -1,9 +1,11 @@
 function str (arr){
-let str = ''
-for (let i = 0; i < arr.length;++i){
-    str = arr[i] + str
+let max = arr[0]
+for (let i = 0; i < arr.length; ++i){
+    if (arr[i] > max){
+        max = arr[i]
+    }
 }
-return str
+return max;
 }
 
-console.log(str('abc'))
+console.log(str([2,2,2,100, 10000010101]))
