@@ -1,5 +1,5 @@
-function str (elem1, elem2){
-    return (!elem1) ? elem1 : elem2
+function str (arr){
+return arr.split('').reverse().join('');
 }
 
-console.log(str(10, 5))
+console.log(str('abc'))
