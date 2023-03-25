@@ -1,9 +1,9 @@
 function str (arr){
-let str = ''
-for (let i = 0; i < arr.length; ++i){
-str = arr[i] + str
+let sum = 0
+for (let i = 1; i <= arr; ++i){
+    sum = sum + i
 }
-return str
+return sum;
 }
 
-console.log(str('abc'))
+console.log(str([600]))
