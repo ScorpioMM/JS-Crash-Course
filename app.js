@@ -1,9 +1,5 @@
 function str (arr){
-let sum = 0;
-for (let i = 0; i <= arr; ++i){
-sum = sum + i
-}
-return sum;
+return arr.map(elem => 0)
 }
 
-console.log(str([600]))
+console.log(str([1,1,1]))
