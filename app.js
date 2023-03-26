@@ -1,11 +1,7 @@
 function str (arr){
-let str = []
-for (let i = 0; i < arr.length; ++i){
-if (arr[i] !== 'Apples'){
-    str.push(arr[i])
-}
-}
-return str
+return arr.filter(elem => !!elem === true)
 }
 
-console.log(str(['Apples', 'Guineos' , 'Peras']))
+console.log(str([500, false]))
+
+// Filter basically means (elem => * codigo *)
