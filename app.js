@@ -1,7 +1,17 @@
-function str (arr){
-return arr.filter(elem => !!elem === true)
+function showRating (rating){
+let ratings = "";
+for (let i = 0; i < Math.floor(rating); ++i){
+ ratings += "*";   
+    if (i !== Math.floor(rating) - 1){
+        ratings += " "
+    }
 }
+if (!Number.isInteger(rating)){
+    ratings += " ."
+}
+return ratings;
+}
+console.log(showRating(3.5))
 
-console.log(str([500, false]))
 
-// Filter basically means (elem => * codigo *)
+// JS A.C == FES
