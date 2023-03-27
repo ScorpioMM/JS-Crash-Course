@@ -1,30 +1,9 @@
-function showRating (rating){
-//let ratings = "";
-// for (let i = 0; i < Math.floor(rating); ++i){
-//     ratings += "*";   
-//        if (i !== Math.floor(rating) - 1){
-//            ratings += " "
-//        }
-//    }
-//    if (!Number.isInteger(rating)){
-//        ratings += " ."
-//    }
-//    return ratings;
-
-let ratings = ""
-for (let i = 0; i < Math.floor(rating); ++i){
-    ratings += "* ";
-    if (i !== Math.floor(rating) -1){
-        ratings += " "
-    }
+function str (arr){
+let sum = 0;
+for (let i = 0 ; i <= arr; ++i){
+    sum = sum + i
 }
-    if (!Number.isInteger(rating)){
-        ratings += " ."
-    }
-return ratings;
-
-
-
+return sum;
 }
-console.log(showRating(3.5))
 
+console.log(str([600]))
