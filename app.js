@@ -1,5 +1,5 @@
-function str (elem1, elem2){
-return !!elem1 ? elem1 : elem2;
+function str (elem1){
+return new Array(elem1.length).fill(0)
 }
 
-console.log(str(5, 10))
+console.log(str([5, 10, 3, 10]))
