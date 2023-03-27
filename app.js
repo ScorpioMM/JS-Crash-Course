@@ -1,9 +1,5 @@
-function str (arr){
-let reverse = ""
-for(let i = 0; i < arr.length; ++i){
-    reverse = arr[i] + reverse
-}
-return reverse
+function str (elem1, elem2){
+return !!elem1 ? elem1 : elem2;
 }
 
-console.log(str('abc'))
+console.log(str(5, 10))
