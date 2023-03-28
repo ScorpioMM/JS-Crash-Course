@@ -1,5 +1,11 @@
-function str (elem1){
-return new Array(elem1.length).fill(0)
+function str (arr){
+let max = arr[0]
+for (let i = 0; i < arr.length; ++i){
+if (arr[i] > max){
+max = arr[i]
+}
+}
+return max;
 }
 
-console.log(str([5, 10, 3, 10]))
+console.log(str([5, 10, 3, 101]))
