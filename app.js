@@ -1,15 +1,6 @@
-function showRatings (rating){
-    let ratings = ""
-  for (let i = 0; i < Math.floor(rating); ++i){
-ratings += " *"
-if (i !== Math.floor(rating)){
-ratings += " "
-}
-  }
-  if (!Number.isInteger(rating)){
-ratings += " ."
-  }
-  return ratings
+function lowToHigh (arr){
+    
+    return arr.sort((a, b) => a - b)
 }
 
-console.log(showRatings(4.5))
+console.log(lowToHigh([20,50,100,40]))
