@@ -1,25 +1,25 @@
-// function lowToHigh (arr){
+function lowToHigh (arr){
     
-//     return arr.sort((a, b) => a.price - b.price)
-// }
+    return arr.sort((a, b) => a.price - b.price)
+}
 
-// console.log(lowToHigh([
-// {id : 1, price: 50},
-// {
-// id : 2, price: 0
-// },
-// {
-// id : 3, price: 5000
-// }
-//   ]));
+console.log(lowToHigh([
+{id : 1, price: 50},
+{
+id : 2, price: 0
+},
+{
+id : 3, price: 5000
+}
+  ]));
 
-//   {
-//     function str (arr){
-//        return arr.length;
-//     }
-//   }
+  {
+    function str (arr){
+       return arr.length;
+    }
+  }
 
-//   console.log(str([2,2,2]))
+  console.log(str([2,2,2]))
 
 function str (arr) {
 let str = ""
