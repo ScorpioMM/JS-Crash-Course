@@ -12,4 +12,4 @@ fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
 })
 
 
-// 2. Async Await
+// 2. Async Awaitttt
