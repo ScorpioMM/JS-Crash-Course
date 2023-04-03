@@ -15,27 +15,14 @@ return response.json();
 
 
 
-// Sum 
+// Reverse words
 
 function str (arr){
-let sum = 0
+let str = []
 for (let i = 0; i < arr.length; ++i){
-sum += arr[i]
+    str = arr[i] + str
 }
-return sum;
-}
-console.log(str([2,2,2]))
-
-
-// Proggresive sum
-
-
-function strr (arrr){
-    let sum = 0;
-    for (let i = 0; i <= arrr; ++i){
-        sum += i
-    }
-    return sum;
+return str;    
 }
 
-console.log(strr([5]))
+console.log(str('abc'))
