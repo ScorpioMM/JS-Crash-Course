@@ -1,55 +1,35 @@
-// InnerHTMLLLL
+const statusRef = document.querySelector('.status')
 
-const emailRef = document.querySelector(".email")
+function subscription (){
+return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('VIP')
 
-// 1. Unlocking a promise by using Then; 
+    }, 2000)
+})
+}    
 
-// fetch("https://jsonplaceholder.typicode.com/users/1").then((data) => {
-// return data.json();
-// }).then((data) => {
-// console.log(data)
-// emailRef.innerHTML = data.email    
-// })
-
-// 2. Unlock a promise by using await / async method, this what you do;
-
-async function main (){
-const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
-const data = await response.json()
-console.log(data);
-emailRef.innerHTML = data.email    
+function getVideo(subscriptionStatus){
+ return new Promise ((resolve, reject) => {
+ if(subscriptionStatus === "VIP"){
+    resolve ('Show Video')
+ } 
+ else if(subscriptionStatus === "FREE"){
+    resolve('Show Trailer')
+ } 
+ else {reject('No Video')}
+ })   
 }
 
-main()
+async function main (){
+const status = await subscription();
+statusRef.innerHTML = status
+console.log(await getVideo(status))
+}
 
-// async function main(){
- 
-// const response = await fetch ("https://jsonplaceholder.typicode.com/users/1")
-// const data = await response.json()
-// console.log(data)
-// emailRef.innerHTML = data.email
-// }
-
-// main()
+main ()
 
 
 
 
 
-
-
-
-
-
-
-// // Reverse words
-
-// function str (arr){
-// let str = []
-// for (let i = 0; i < arr.length; ++i){
-//     str = arr[i] + str
-// }
-// return str;    
-// }
-
-// console.log(str('abc'))
