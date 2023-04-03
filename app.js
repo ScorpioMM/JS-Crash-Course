@@ -28,3 +28,14 @@ console.log(str([2,2,2]))
 
 
 // Proggresive sum
+
+
+function strr (arrr){
+    let sum = 0;
+    for (let i = 0; i <= arrr; ++i){
+        sum += i
+    }
+    return sum;
+}
+
+console.log(strr([5]))
