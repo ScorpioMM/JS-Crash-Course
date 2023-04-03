@@ -1,35 +1,13 @@
-const statusRef = document.querySelector('.status')
+async function firstSixIncomplete(userId){
 
-function subscription (){
-return new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('VIP')
+const promise = await fetch("https://jsonplaceholder.typicode.com/todos")
 
-    }, 2000)
-})
-}    
+const result = await promise.json() 
 
-function getVideo(subscriptionStatus){
- return new Promise ((resolve, reject) => {
- if(subscriptionStatus === "VIP"){
-    resolve ('Show Video')
- } 
- else if(subscriptionStatus === "FREE"){
-    resolve('Show Trailer')
- } 
- else {reject('No Video')}
- })   
+const incompleteTask = result.filter(elem => !elem.completed).slice(0,6)
+
+console.log(incompleteTask)
+
 }
 
-async function main (){
-const status = await subscription();
-statusRef.innerHTML = status
-console.log(await getVideo(status))
-}
-
-main ()
-
-
-
-
-
+firstSixIncomplete(4)
