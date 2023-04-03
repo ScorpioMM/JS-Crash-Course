@@ -4,10 +4,12 @@ const emailRef = document.querySelector(".email")
 
 // 1. Then 
 
-fetch("https://jsonplaceholder.typicode.com/users/1").then(response => {
-    response.json().then((data) => 
-    console.log(data))
-})
+fetch("https://jsonplaceholder.typicode.com/users/1")
+.then((response) => {
+return response.json()}).then((data) => 
+console.log(data))
+emailRef.innerHTML = data.email
+
 
 
 // 2. Await/Async 
@@ -27,10 +29,3 @@ console.log(str([2,2,2]))
 
 
 // Proggresive sum
-
-function strr (arrr){
-let sum = 0
-
-}
-
-console.log(strr([2]))
