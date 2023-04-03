@@ -2,24 +2,35 @@
 
 const emailRef = document.querySelector(".email")
 
-// 1. Then 
+// 1. Unlocking a promise by using Then; 
 
-// fetch("https://jsonplaceholder.typicode.com/users/1").then((response) => {
-//     return response.json()
+// fetch("https://jsonplaceholder.typicode.com/users/1").then((data) => {
+// return data.json();
 // }).then((data) => {
-//     console.log(data)
-// emailRef.innerHTML = data.email
+// console.log(data)
+// emailRef.innerHTML = data.email    
 // })
-// 2. Await/Async 
 
-async function main(){
-    
-    await fetch ("https://jsonplaceholder.typicode.com/users/1")
+// 2. Unlock a promise by using await / async method, this what you do;
 
-
+async function main (){
+const response = await fetch("https://jsonplaceholder.typicode.com/users/1")
+const data = await response.json()
+console.log(data);
+emailRef.innerHTML = data.email    
 }
 
 main()
+
+// async function main(){
+ 
+// const response = await fetch ("https://jsonplaceholder.typicode.com/users/1")
+// const data = await response.json()
+// console.log(data)
+// emailRef.innerHTML = data.email
+// }
+
+// main()
 
 
 
