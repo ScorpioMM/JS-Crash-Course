@@ -74,8 +74,8 @@ header {
     padding: 0 30px;
 }
 
-#landing_page {
-    height: 100vh;
+#landing-page {
+    min-height: 100vh;
 }
 
 .header_para {
@@ -197,4 +197,11 @@ nav {
     text-align: center;
     font-size: 48px;
     margin-bottom: 60px;
+}
+
+
+.project_img{
+    width: 1000px;
+    height: 500px;
+    align-items: center;
 }
