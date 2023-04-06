@@ -131,9 +131,29 @@
           </div>
         </div>
         <div class="modal_half modal_contact">
-          <h4 class="modal_sub-title modal_sub-title-about">
-            Let's have a chat
-          </h4>
+       <h3 class="modal_title modal_title-contact"> Let's have a chat!</h3>
+       <h3 class="modal_sub-title modal_sub-title-contact"> I'm currently open to new opportunities</h3>
+       <form id="contact_form" action="">
+        <div class="form_item">
+          <label class="form_item-label" >Name</label>
+       <input class="input" name="user_name" type="text" required> </input>
+        </div>
+        <div class="form_item">
+          <label class="form_item-label" >Email</label>
+       <input class="input" name="user_email" type="email" required> </input>
+        </div>
+        <div class="form_item">
+          <label class="form_item-label">Message</label>
+       <textarea class="input" name="message" type="text" required> </textarea>
+        </div>
+       <button id="contact_submit" class="form_submit">Send it my way Brrr</button>
+      </form> 
+      <div class="modal_overlay modal_overlay-loading">
+        <i class="fa-solid fa-spinner"></i>
+      </div> 
+     <div class="modal_overlay-success .modal_overlay">
+      Thanks for the message! Looking foward to work with you soon!
+     </div>
         </div>
       </div>
     </section>
