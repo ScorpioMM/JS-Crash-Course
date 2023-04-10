@@ -7,7 +7,9 @@
     font-family: "Roboto", sans-serif;
 }
 
-
+hrml {
+    scroll-behavior: smooth;
+}
 
 li {
     list-style: none;
@@ -240,9 +242,11 @@ header {
     border: none;
     background-color: #242424;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 32px;
     right: 40px;
+    z-index: 100;
+    box-shadow: 0 12px 30px 0 rgb(0, 0,0, 0.28);
 }
 
 .scroll {
@@ -725,4 +729,22 @@ footer {
 .nav_link:first-child{
     display: none;
 }
+.project_description-para{
+    display: none;
+}
+.project_description{
+    left: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.project_description-sub-title{
+    margin-bottom: 8px;
+}
+
+.modal_half{
+    padding: 40px;
+}
+
 }
